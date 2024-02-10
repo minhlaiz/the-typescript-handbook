@@ -22,7 +22,7 @@ function sanitizeInput(str: string): UserInputSanitizedString {
 }
 
 // Create a sanitized input
-let userInput = <string>sanitizeInput("test"); //angle bracket is type assertion 
+let userInput = <string>sanitizeInput("test"); //angle bracket is generics
 
 // Can still be re-assigned with a string though
 userInput = "new input";
